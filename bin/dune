@@ -1,4 +1,3 @@
 (executables
- (public_names day1a day1b)
- (names day1a day1b)
+ (public_names day1a day1b day2a)
  (libraries str))

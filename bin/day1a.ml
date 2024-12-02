@@ -10,7 +10,7 @@ let read_lines file =
 
 let lines = read_lines "data/day1.txt"
 
-(** Get only elements from the left list, conver to Int and sort *)
+(** Get only elements from the left list, convert to Int and sort *)
 let left_list =
   List.filteri (fun index _ -> Int.rem index 2 == 1) lines
   |> List.map int_of_string |> List.sort compare
