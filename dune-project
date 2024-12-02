@@ -5,22 +5,13 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github AestheticSkye/aoc24))
 
-(authors "Author Name <author@example.com>")
-
-(maintainers "Maintainer Name <maintainer@example.com>")
-
-(license LICENSE)
-
-(documentation https://url/to/documentation)
+(authors "Skyla <skyla@alessian.org>")
 
 (package
  (name aoc24)
- (synopsis "A short synopsis")
- (description "A longer description")
- (depends ocaml)
- (tags
-  ("add topics" "to describe" your project)))
+ (synopsis "An OCaml project for Advent of Code 2024")
+ (depends ocaml))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
